@@ -12,8 +12,8 @@ spring:
       ddl-auto: create
     properties:
       hibernate:
-        format_sql: true
         show_sql: true
+        format_sql: true
         dialect: org.hibernate.dialect.H2Dialect
   h2:
     console:
@@ -36,6 +36,6 @@ spring:
       ddl-auto: none
     properties:
       hibernate:
-        format_sql: true
         show_sql: true
+        format_sql: true
         dialect: org.hibernate.dialect.MySQL8Dialect
